@@ -41,7 +41,7 @@ jobs:
 
       - name: Build
         shell: "bash"
-        run: bun build
+        run: bun run build
 
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
