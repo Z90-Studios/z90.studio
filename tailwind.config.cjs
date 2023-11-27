@@ -14,6 +14,7 @@ module.exports = {
   ],
   //content: ["./src/components/**/*.{astro,html,js,jsx,svelte,ts,tsx,vue}"],
   theme: {
+    darkMode: "class",
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
