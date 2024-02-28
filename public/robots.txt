@@ -1,4 +1,2 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://z90.studio/sitemap.xml
+User-agent: *
+Disallow:

@@ -1,0 +1,36 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <div class="m-8 flex justify-around flex-col sm:flex-row">
+    <Hero>
+      <Fragment slot="title">
+        <span class="text-accent dark:text-white">Come and say</span>
+        <span class="text-primary dark:text-accent">
+          Hello<span class="text-accent dark:text-white">!</span>
+        </span>
+      </Fragment>
+
+      <Fragment slot="subtitle">
+        <span class="font-semibold">Join our Discord</span> to be updated on the latest news, changes,
+        and discussion on <span class="font-semibold">any of our projects</span>. Feel free to ask
+        questions so we can learn and grow <span class="font-semibold">together</span>.
+      </Fragment>
+    </Hero>
+    <div class="flex justify-end">
+      <iframe
+        src="https://discord.com/widget?id=1134526981090852894&theme=dark"
+        width="350"
+        height="500"
+        allowtransparency="true"
+        frameborder="0"
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </div>
+  </div>
+</Layout>

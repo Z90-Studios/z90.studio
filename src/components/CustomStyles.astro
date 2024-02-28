@@ -1,0 +1,63 @@
+---
+import '@fontsource/courier-prime';
+
+// 'DM Sans'
+// Nunito
+// Dosis
+// Outfit
+// Roboto
+// Literata
+// 'IBM Plex Sans'
+// Karla
+// Poppins
+// 'Fira Sans'
+// 'Libre Franklin'
+// Inconsolata
+// Raleway
+// Oswald
+// 'Space Grotesk'
+// Urbanist
+---
+
+<style is:inline is:global>
+  :root {
+    --aw-font-sans: 'Courier Prime';
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
+
+    --aw-color-primary: rgb(10, 0, 27);
+    --aw-color-secondary: rgb(188, 119, 209);
+    --aw-color-accent: rgb(146, 71, 142);
+
+    --aw-color-text-heading: rgb(0 0 0);
+    --aw-color-text-default: rgb(16 16 16);
+    --aw-color-text-muted: rgb(16 16 16 / 66%);
+    --aw-color-bg-page: rgb(255 255 255);
+
+    --aw-color-bg-page-dark: rgb(16 0 38);
+
+    ::selection {
+      background-color: lavender;
+    }
+  }
+
+  .dark {
+    --aw-font-sans: 'Courier Prime', monospace;
+    --aw-font-serif: var(--aw-font-sans);
+    --aw-font-heading: var(--aw-font-sans);
+
+    --aw-color-primary: rgb(30, 175, 30);
+    --aw-color-secondary: rgb(30, 138, 35);
+    --aw-color-accent: rgb(55, 217, 40);
+
+    --aw-color-text-heading: rgb(0 0 0);
+    --aw-color-text-default: rgb(229 236 246);
+    --aw-color-text-muted: rgb(229 236 246 / 66%);
+    --aw-color-bg-page: var(--aw-color-bg-page-dark);
+
+    ::selection {
+      background-color: #002200;
+      color: rgb(0 255 0);
+    }
+  }
+</style>
