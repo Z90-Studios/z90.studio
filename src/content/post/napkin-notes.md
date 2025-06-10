@@ -3,9 +3,9 @@ publishDate: 2024-02-22T19:30:00Z
 title: (Napkin) UI Text-to-Speech Ideas
 excerpt: Ideas regarding the Napkin Atlas project's use of Text-to-Speech.
 tags:
-  - napkin
-  - atlas
-  - artificial intelligence
+  - Napkin
+  - Atlas
+  - Artificial intelligence
 ---
 
 POSTGRES VERSION 16
